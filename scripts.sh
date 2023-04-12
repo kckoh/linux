@@ -48,6 +48,13 @@ cd ${SCRIPTS_FOLDER}
 exec > >(tee ${LOG_FILE})
 exec 2> >(tee ${LOG_FILE} >&2)
 
+##############################################################
+# Begin downloading the files
+# echo "begin downlading the files"
+
+# for year in {2020..2022}; 
+# do wget -P ${DOCDIR}  --content-disposition "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=1706&Year=${year}&Month=2&Day=28&timeframe=1&submit= Download+Data" ;
+# done;
 
 
 ##############################################################
