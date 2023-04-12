@@ -1,0 +1,41 @@
+--2023-04-12 02:49:05--  hthello world
+\n[SUCESS]:SCRIPT script.py RUNNING SUCCEDED
+[PROCESS]: END SCRIPT RUNNING PROCESS
+
+END
+2&Day=28&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/kc/weclouddata/linux/docs/en_climate_hourly_NT_2204100_02-2020_P1H.csv’
+
+     0K .......... .......... .......... .......... ..........  163K
+    50K ..........                                              106M=0.3s
+
+2023-04-12 02:49:18 (199 KB/s) - ‘/home/kc/weclouddata/linux/docs/en_climate_hourly_NT_2204100_02-2020_P1H.csv’ saved [62404]
+
+--2023-04-12 02:49:18--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=1706&Year=2021&Month=2&Day=28&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/kc/weclouddata/linux/docs/en_climate_hourly_NT_2204100_02-2021_P1H.csv’
+
+     0K .......... .......... .......... .......... ..........  338K
+    50K ........                                               55.0M=0.1s
+
+2023-04-12 02:49:19 (398 KB/s) - ‘/home/kc/weclouddata/linux/docs/en_climate_hourly_NT_2204100_02-2021_P1H.csv’ saved [60268]
+
+--2023-04-12 02:49:19--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=1706&Year=2022&Month=2&Day=28&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/kc/weclouddata/linux/docs/en_climate_hourly_NT_2204100_02-2022_P1H.csv’
+
+     0K .......... .......... .......... .......... ..........  334K
+    50K ........                                               82.2M=0.1s
+
+2023-04-12 02:49:20 (392 KB/s) - ‘/home/kc/weclouddata/linux/docs/en_climate_hourly_NT_2204100_02-2022_P1H.csv’ saved [60268]
+
